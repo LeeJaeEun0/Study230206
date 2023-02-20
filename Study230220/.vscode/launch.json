@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Study230220_f0e41563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8_10_Exception",
+            "request": "launch",
+            "mainClass": "Ch8_Exception_Handling.Ex8_10_Exception",
+            "projectName": "Study230220_f0e41563",
+            "args": ["av"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8_6_Exception",
+            "request": "launch",
+            "mainClass": "Ch8_Exception_Handling.Ex8_6_Exception",
+            "projectName": "Study230220_f0e41563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8_7_Checked",
+            "request": "launch",
+            "mainClass": "Ch8_Exception_Handling.Ex8_7_Checked",
+            "projectName": "Study230220_f0e41563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8_8_Unchecked",
+            "request": "launch",
+            "mainClass": "Ch8_Exception_Handling.Ex8_8_Unchecked",
+            "projectName": "Study230220_f0e41563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8_9_Exception",
+            "request": "launch",
+            "mainClass": "Ch8_Exception_Handling.Ex8_9_Exception",
+            "projectName": "Study230220_f0e41563"
+        }
+    ]
+}
