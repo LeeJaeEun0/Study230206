@@ -13,6 +13,9 @@ public class Practice6_17 {
 
 	// 1. shuffle 메서드를 작성하세요
 	private static int[] shuffle(int[] arr) {
+		if(arr==null || arr.length==0)
+			return arr;
+
 		for(int i=0; i< arr.length; i++) {
 			int j = (int) (Math.random() * arr.length);
 			

@@ -7,6 +7,7 @@ public class Practice3_3 {
 		int num = 456;
 		// println(/* 여기에 정답을 입력하세요*/)
 		System.out.println((num/100)*100);
+		System.out.println(num-num%100);
 	} // end of main
 
 } // end of class

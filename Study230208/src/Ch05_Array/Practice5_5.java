@@ -26,6 +26,7 @@ public class Practice5_5 {
 		for(int i=0; i <ball3.length; i++) {
 			System.out.print(ball3[i]);
 		}// end of for i
+		// System.arraycopy()를 사용하는 방법이 있음 
 	} // end of main
 
 } // end of class
