@@ -1,0 +1,1218 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex00_Test",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex00_Test",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01_print_println",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex01_print_println",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02_print_add_sub",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex02_print_add_sub",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03_Variable01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex03_Variable01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03_Variable02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex03_Variable02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex04_Variable_Type",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex04_Variable_Type",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_Constant_Literal",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex05_Constant_Literal",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex06_Literal_Type_suffix",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex06_Literal_Type_suffix",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex07_Literal_char_String",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex07_Literal_char_String",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex08_String_plus",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex08_String_plus",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex09_Swap",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex09_Swap",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Data_Type",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex10_Data_Type",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11_Primitive_Type",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex11_Primitive_Type",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex12_Printf",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex12_Printf",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex13_Printf_Ex",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex13_Printf_Ex",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_Scanner01_nextLine",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex14_Scanner01_nextLine",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_Scanner02_nextInt",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex14_Scanner02_nextInt",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_Scanner03_nextFloat",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex14_Scanner03_nextFloat",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_Int_Overflow",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex15_Int_Overflow",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex16_Signed_Integer_Overflow",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex16_Signed_Integer_Overflow",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex17_Type_Change",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Ex17_Type_Change",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice2_7",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Practice2_7",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice2_8",
+            "request": "launch",
+            "mainClass": "Study230206/Ch02_Variable.Practice2_8",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX19_Compound_Assignment_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.EX19_Compound_Assignment_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01_Operator_Operand",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex01_Operator_Operand",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02_Orerator_Type",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex02_Orerator_Type",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03_Operator_Priority",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex03_Operator_Priority",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex04_Operator_Bonding_Rules",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex04_Operator_Bonding_Rules",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_Increment_Operator01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex05_Increment_Operator01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_Increment_Operator02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex05_Increment_Operator02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_Increment_Operator03",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex05_Increment_Operator03",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex06_Sign_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex06_Sign_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex07_Casting_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex07_Casting_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex08_Auto_Casting",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex08_Auto_Casting",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex09_Four_Arithmetic_Operators",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex09_Four_Arithmetic_Operators",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Arithmetic_Operation",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex10_Arithmetic_Operation",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Arithmetic_Operation01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex10_Arithmetic_Operation01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Arithmetic_Operation02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex10_Arithmetic_Operation02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Arithmetic_Operation03",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex10_Arithmetic_Operation03",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Arithmetic_Operation04",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex10_Arithmetic_Operation04",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11_Math_round",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex11_Math_round",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex12_Division_Operator01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex12_Division_Operator01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex12_Division_Operator02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex12_Division_Operator02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex13_Comparison_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex13_Comparison_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_Comparison_String01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex14_Comparison_String01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_Comparison_String02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex14_Comparison_String02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_Logical_Operator01",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex15_Logical_Operator01",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_Logical_Operator02",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex15_Logical_Operator02",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex16_Logical_Negation_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex16_Logical_Negation_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex17_Condition_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex17_Condition_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex18_Assignment_Operator",
+            "request": "launch",
+            "mainClass": "Study230206/Ch03_Operator.Ex18_Assignment_Operator",
+            "projectName": "Study230206"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice3_2",
+            "request": "launch",
+            "mainClass": "Study230207/Ch03_Operator.Practice3_2",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice3_3",
+            "request": "launch",
+            "mainClass": "Study230207/Ch03_Operator.Practice3_3",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice3_4",
+            "request": "launch",
+            "mainClass": "Study230207/Ch03_Operator.Practice3_4",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice3_5",
+            "request": "launch",
+            "mainClass": "Study230207/Ch03_Operator.Practice3_5",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice3_6",
+            "request": "launch",
+            "mainClass": "Study230207/Ch03_Operator.Practice3_6",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01_if",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex01_if",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02_if_ex01",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex02_if_ex01",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02_if_ex02",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex02_if_ex02",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03_Block",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex03_Block",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex04_If_Else",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex04_If_Else",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_If_Else_If",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex05_If_Else_If",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex06_If_Else_If",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex06_If_Else_If",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex07_Overlab_If",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex07_Overlab_If",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex08_Overlab_If_ex",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex08_Overlab_If_ex",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex09_Switch",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex09_Switch",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Switch_Constraint",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex10_Switch_Constraint",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11_Switch_Constranint_ex",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex11_Switch_Constranint_ex",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11_Switch_Constranint_if",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex11_Switch_Constranint_if",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex12_Random_Int",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex12_Random_Int",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex13_For",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex13_For",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_For_Ex01",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex14_For_Ex01",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_For_Ex02",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex14_For_Ex02",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_Overlap_For01",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex15_Overlap_For01",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_Overlap_For02",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex15_Overlap_For02",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex16_While",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex16_While",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex17_While_Ex01",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex17_While_Ex01",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex17_While_Ex02",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex17_While_Ex02",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex18_While_Ex03",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex18_While_Ex03",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex19_Do_While",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex19_Do_While",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex20_Break",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex20_Break",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex21_Continue",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex21_Continue",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex22_Break_Continue_Ex",
+            "request": "launch",
+            "mainClass": "Study230207/Ch04_Conditionals_Iterations.Ex22_Break_Continue_Ex",
+            "projectName": "Study230207"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex23_Labeled_Loop",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Ex23_Labeled_Loop",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex24_Labeled_Loop_ex",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Ex24_Labeled_Loop_ex",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_10",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_10",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_2",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_2",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_3",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_3",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_4",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_4",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_5_after",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_5_after",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_5_before",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_5_before",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_6",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_6",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_7",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_7",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_8",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_8",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice4_9",
+            "request": "launch",
+            "mainClass": "Study230208/Ch04_Conditionals_Iterations.Practice4_9",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01_Array",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex01_Array",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02_Array_Declaration_Produce",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex02_Array_Declaration_Produce",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03_Array_Index",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex03_Array_Index",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex04_Array_length",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex04_Array_length",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex05_Array_Reset",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex05_Array_Reset",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex06_Array_Print",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex06_Array_Print",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex07_Array_Print_ex",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex07_Array_Print_ex",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex08_Array_Uses_total_average",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex08_Array_Uses_total_average",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex09_Array_Uses_Min_Max",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex09_Array_Uses_Min_Max",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10_Array_Uses_Shuffle",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex10_Array_Uses_Shuffle",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11_Array_Uses_lotto",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex11_Array_Uses_lotto",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex12_String_Array",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex12_String_Array",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex13_String_Array_Reset",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex13_String_Array_Reset",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14_String_Class",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex14_String_Class",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15_String_Main_Method",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex15_String_Main_Method",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex18_Two_Dimensional_Array",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex18_Two_Dimensional_Array",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex19_Two_Dimensional_Array_Index",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex19_Two_Dimensional_Array_Index",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex20_Two_Dimensional_Array_Reset",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex20_Two_Dimensional_Array_Reset",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex21_Two_Dimensional_Array_Reset_ex01",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex21_Two_Dimensional_Array_Reset_ex01",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex22_Two_Dimensional_Array_Reset_ex02",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex22_Two_Dimensional_Array_Reset_ex02",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex23_Two_Dimensional_Array_Reset_ex03",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex23_Two_Dimensional_Array_Reset_ex03",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex24_Arrays",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Ex24_Arrays",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice5_2",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Practice5_2",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice5_3",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Practice5_3",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice5_4",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Practice5_4",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice5_5",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Practice5_5",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice5_6",
+            "request": "launch",
+            "mainClass": "Study230208/Ch05_Array.Practice5_6",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_6_1",
+            "request": "launch",
+            "mainClass": "Study230208/Ch06_Object_Oriented_Programming.Ex_6_1",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_6_2",
+            "request": "launch",
+            "mainClass": "Study230208/Ch06_Object_Oriented_Programming.Ex_6_2",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_6_2_2",
+            "request": "launch",
+            "mainClass": "Study230208/Ch06_Object_Oriented_Programming.Ex_6_2_2",
+            "projectName": "Study230208"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_3",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_3",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_4",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_4",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_5_Call_Stack",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_5_Call_Stack",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_6_Primitive_Parameter",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_6_Primitive_Parameter",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_7_Reference_Parameter",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_7_Reference_Parameter",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_8_Reference_Return_Type",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_8_Reference_Return_Type",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_9_Static_Instance_Static",
+            "request": "launch",
+            "mainClass": "Study230209/Ch06_Object_oriented_Programming.Ex6_9_Static_Instance_Static",
+            "projectName": "Study230209"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex06_12_Parameterized_Constructor",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Ex06_12_Parameterized_Constructor",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_10_Overloading",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Ex6_10_Overloading",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_11_Defult_Constructor",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Ex6_11_Defult_Constructor",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_14_Member_Variable_Initalization",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Ex6_14_Member_Variable_Initalization",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6_14_Member_Variable_Initalization2",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Ex6_14_Member_Variable_Initalization2",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_16",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_16",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_17",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_17",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_18",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_18",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_19",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_19",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_1_Student",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_1_Student",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_2",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_2",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_20",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_20",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_21",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_21",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_3",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_3",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_4",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_4",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_5",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_5",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_6",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_6",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice6_7",
+            "request": "launch",
+            "mainClass": "Study230210/Ch06_Object_oriented_Programming.Practice6_7",
+            "projectName": "Study230210"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_1_extends",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.Ex7_1_extends",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_2_Super",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.Ex7_2_Super",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_3_Super2",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.Ex7_3_Super2",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_4_Super",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.Ex7_4_Super",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_6_Static_import",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.Ex7_6_Static_import",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceTest",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.InheritanceTest",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverridingTest3",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.OverridingTest3",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverridingTest_1",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.OverridingTest_1",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverridingTest_2",
+            "request": "launch",
+            "mainClass": "Study230213/Ch07_Object_oriented_Programming.OverridingTest_2",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch PackageTest",
+            "request": "launch",
+            "mainClass": "Study230213/com.codechobo.book.PackageTest",
+            "projectName": "Study230213"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_7_TypeChange",
+            "request": "launch",
+            "mainClass": "Study230214/Ch07_Object_Oriented_Programming.Ex7_7_TypeChange",
+            "projectName": "Study230214"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeTest",
+            "request": "launch",
+            "mainClass": "Study230214/Ch07_Object_Oriented_Programming.TimeTest",
+            "projectName": "Study230214"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyParentTest",
+            "request": "launch",
+            "mainClass": "Study230214/pkg1.MyParentTest",
+            "projectName": "Study230214"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyParentTest2",
+            "request": "launch",
+            "mainClass": "Study230214/pkg2.MyParentTest2",
+            "projectName": "Study230214"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_10_abstract_class",
+            "request": "launch",
+            "mainClass": "Study230215/Ch07_Object_Oriented_Programming.Ex7_10_abstract_class",
+            "projectName": "Study230215"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_8_Polymorphism_Parameters",
+            "request": "launch",
+            "mainClass": "Study230215/Ch07_Object_Oriented_Programming.Ex7_8_Polymorphism_Parameters",
+            "projectName": "Study230215"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7_9_Array",
+            "request": "launch",
+            "mainClass": "Study230215/Ch07_Object_Oriented_Programming.Ex7_9_Array",
+            "projectName": "Study230215"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlayerTest",
+            "request": "launch",
+            "mainClass": "Study230215/Ch07_Object_Oriented_Programming.PlayerTest",
+            "projectName": "Study230215"
+        }
+    ]
+}
